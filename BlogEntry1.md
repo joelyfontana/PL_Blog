@@ -15,4 +15,24 @@ I struggled to apply this example to the homework. To begin, my main issue was I
 ```
 len :: Num b => [a] -> b
 ```
-before my len function to decalre it. 
+before my len function to decalre it. However, my confusion as to what that meant did not clear until I attempted the homework. In my first attempt in making a select_evens function, I did everything incorrect. I tried to copy the function declaration from the len function and creating a new variable within the function (see code below).
+```
+select_evens :: Num a => [a] -> Integer
+select_evens [] = 0
+evens_list = []
+    if(length(select_evens)) `mod` 2 == 0
+        then head(select_evens) : evens_list
+```
+With this function, I got endless errors and evntually gave up. When we went over the solutions in class, however, Haskell's syntax suddenly made much more sense. I learned that the function declaration consists of the type of your input pointing to the type of your output. Further, I learned that in order for the compiler to know that it is all one function, every line has to start with the function name. Lastly, I understood that when writing my function, I needed to start with the base cases and then use those base cases to help me with my recursion in the final case. Seeing a working example (see code below) that utilized all of these aspects really helped me understand how Haskell works and how I should write my code. 
+```
+--Credit: Dan's solution from class
+-- Integer Input to Interger output
+select_evens :: [Int] -> [Int]
+--base cases
+select_evens [] = []
+select_evens [x] = []
+--final case using recusion!
+select_evens (x : y : ys) = y : select_evens (ys)
+```
+Once I learned these main componets, I was able to complete the rest of the homework with minimal difficulty and fully understand the rest of the lesson. Saying this, recursion is still a big struggle for me. I continuously put it in the wrong spot and do not fully understand why I am using it yet. However, I'm hoping it will come more naturally the more I continue to use it. 
+   
