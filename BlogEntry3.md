@@ -7,11 +7,12 @@ Functional programming was created to support a purely functional approach to pr
 ### Key Differences
 While these definitions help me to understand the key differences, breaking down the key differences between the two languages greatly helped me to understand them more. This chart outlines the main differences between the two types of programming.
 
-<u>Characteristic       	       | Imperative approach                                                  	| Functional approach </u>
-Programmer focus	           | How to perform tasks (algorithms) and how to track changes in state. 	| What information is desired and what transformations are required.
-State changes	               | Important                                                           	  | Non-existent.
-Order of execution	         | Important.	                                                            | Low importance.
-Primary flow control	       | Loops, conditionals, and function (method) calls.	                    | Function calls, including recursion.
-Primary manipulation unit	   | Instances of structures or classes.	                                  | Functions as first-class objects and data collections.
+<u>Characteristic</u>       	       | Imperative approach                                                  	| Functional approach </u>
+
+|Programmer focus	           | How to perform tasks (algorithms) and how to track changes in state. 	| What information is desired and what transformations are required|
+|State changes	             | Important                                                           	  | Non-existent|
+|Order of execution	         | Important	                                                            | Low importance|
+|Primary flow control	       | Loops, conditionals, and function (method) calls	                      | Function calls, including recursion|
+|Primary manipulation unit	 | Instances of structures or classes.	                                  | Functions as first-class objects and data collections|
 
 
