@@ -8,7 +8,7 @@
 add :: Int -> Int -> Int
 add = undefined            
 ```
-So after it is implemented, the function can look like this:
+  So after it is implemented, the function can look like this:
 ```
 add :: Int -> Int -> Int
 add = \x y -> x + y
