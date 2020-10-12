@@ -1,9 +1,7 @@
-# Blog Entry #5
-## help
+# Blog Entry #5 
+## Haskell Tips and Tricks
 
-### Haskell Tips and Tricks
-
-1. Top tip for Haskell - Get a code editor that you can easily install Haskell extensions to help you write and debug your code. Visual Studio Code is my favorite for this because it is very easy to use, contains multiple extensions for Haskell, and has github integration so you can push straight to your github. In Visual Studio Code, the extensions I found the most helpful are Haskell, Haskell Syntax Highlighting, Haskelly, and Simple GHC (Haskell) Integration. Together, these extensions help my code to be more readable with varying colors, suggest type declarions, and let you know if there is a problem with your code before you compile it.
+### 1. Top tip for Haskell - Get a code editor that you can easily install Haskell extensions to help you write and debug your code. Visual Studio Code is my favorite for this because it is very easy to use, contains multiple extensions for Haskell, and has github integration so you can push straight to your github. In Visual Studio Code, the extensions I found the most helpful are Haskell, Haskell Syntax Highlighting, Haskelly, and Simple GHC (Haskell) Integration. Together, these extensions help my code to be more readable with varying colors, suggest type declarions, and let you know if there is a problem with your code before you compile it.
 2. You can use **undefined** to define a function before it is implemented 
 ```                                 
 add :: Int -> Int -> Int
