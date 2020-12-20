@@ -1,8 +1,10 @@
-Understanding Hoare Logic
+#Blog Entry #6
 
-What is Hoare Logic?
+##Understanding Hoare Logic
+
+###What is Hoare Logic?
 
 
-How does it relate to programming languages?
+###How does it relate to programming languages?
 
 
