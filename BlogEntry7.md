@@ -2,8 +2,10 @@
 
 ## Concept of Abstract Reduction Systems
 
+### This blog contains the basic concepts of an ARS system without much of the discrete notation. This is because, for whatever reason, the notation distracted me from the overall basic concepts that comprised an ARS system. This helped me to figure out what the basic concepts were and then I was able to add in the notation later.
+
 ### What is an Abstract Reduction System?
-An abstract reduction system (ARS for short) is a set of elements that we need to rewrite and a relation, or a set of rules, that we can apply to the elements. These rules help us to simplify elements in an easier and faster format to process.
+An abstract reduction system (ARS for short) is a set of elements that we need to rewrite, and a relation, or a set of rules, that we can apply to the elements. These rules help us to simplify elements in an easier and faster format to process.
 
 ### How does an Abstract Reduction System work?
 As stated above, an ARS contains a list of elements, such and *a, b,* and *c*, and a set of rules that apply to these elements. If given an ARS with the following starting condition, the rules can be used to simplify - or reduce - the starting condition until it has reached its normal form.  
