@@ -19,11 +19,11 @@ ________________________________________________________________________________
 
 **Example ARS**
 
-Starting condition - 
+*Starting condition* - 
 
 aaabbccc
 
-Rules - 
+*Rules* - 
 
 bb --> [ ]
 
@@ -37,13 +37,28 @@ Using the above starting condition and rules, we can reduce the starting conditi
 
 1. a(aa --> b)bbccc = abbbccc
 
-We can reduce an *aa* in the starting condition to a *b* which results in abbbccc
+Explaination: We can reduce an *aa* in the starting condition to a *b* which results in abbbccc
 
-1. abbb(cc --> b)c = abbbbc
+2. abbb(cc --> b)c = abbbbc
 
-We can do the same things to the *c's* and reduce *cc* to *b*
+Explaination: We can do the same things to the *c's* and reduce *cc* to *b*
 
-1. 
+3. a(bb --> [ ])bbc = abbc
+
+Explaination: bb reduces to nothing
+
+4. a(bb -->)c = ac
+
+Explaination: We can reduce bb to nothing once more
+
+5. ac --> aa
+
+Explaintion: ac reduces to aa. Check to see if this is its normal form. (Hint: keep going!)
+
+6. aa --> b
+
+Explaination: aa can be reduced to b. A single b can not be reduced any further, so we have reached its normal form!
+
 
 
 
