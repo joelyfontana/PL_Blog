@@ -2,8 +2,6 @@
 
 ## Concept of Abstract Reduction Systems
 
-### This blog contains the basic concepts of an ARS system without much of the discrete notation. This is because, for whatever reason, the notation distracted me from the overall basic concepts that comprised an ARS system. This helped me to figure out what the basic concepts were and then I was able to add in the notation later.
-
 ### What is an Abstract Reduction System?
 An abstract reduction system (ARS for short) is a set of elements that we need to rewrite, and a relation, or a set of rules, that we can apply to the elements. These rules help us to simplify elements in an easier and faster format to process.
 
@@ -64,6 +62,7 @@ Using the above starting condition and rules, we can reduce the starting conditi
 You may notice that there are many different ways you can do these steps. You can apply the rules in any order that you would like and still reach the same normal form! This means that the ARS system is **confluent**. If a system is confluent, it means that no matter how you apply the rules to the starting condition, you will always reach the same normal form. Further, this system is also **terminating**. This means that the system reaches a normal form and does not get stuck cycling between two rules. This is best explained in the example below.
 
 **Non-Terminating ARS Example**
+
 *Starting condition* - 
 
 aaabbccc
@@ -97,6 +96,7 @@ Non- Terminating - The ARS does not have a normal form and can continuously be r
 _________________________________________________________________________________________________________________________________________________________________________________
 
 
+### This blog contains just the basic concepts of an ARS system without much of the discrete notation. This is because, for whatever reason, the notation distracted me from the overall basic concepts that comprised an ARS system. This helped me to figure out what the basic concepts were and then I was able to add in the notation later.
 
 
 
