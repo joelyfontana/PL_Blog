@@ -45,7 +45,7 @@ Once we have the parentheses in the correct spots, we can parse the expression u
 
 - First identify where the expression is split. In this case it is split between B and C. That becomes the first branch in the tree. From there, you continue splitting the expression into branches until you reach the final result below. 
 
-![Syntax Tree Example](syntaxTreepng.png)
+![Syntax Tree Example](SyntaxTreePicture.png)
 
 
 
