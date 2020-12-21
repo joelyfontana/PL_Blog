@@ -17,11 +17,7 @@ Normal Form - In this context, a Normal Form is when a set of elements cannot be
 [ ] Notation - Signifies that an element reduces to nothing
 _________________________________________________________________________________________________________________________________________________________________________________
 
-*Starting condition* 
-
-aaabbccc
-
-*Rules*
+**aaabbccc**
 
 bb --> [ ]
 
@@ -30,6 +26,14 @@ aa --> b
 cc --> b
 
 ac --> aa
+
+Using the above starting condition and rules, we can reduce the starting condition to its normal form.
+
+1. a(aa --> b)bbccc = abbbccc
+We can reduce an *aa* in the starting condition to a *b* which results in abbbccc
+1. abbb(cc --> b)c = abbbbc
+We can do the same things to the *c's* and reduce *cc* to *b*
+1. 
 
 
 
