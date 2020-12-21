@@ -37,27 +37,31 @@ Using the above starting condition and rules, we can reduce the starting conditi
 
 1. a(aa --> b)bbccc = abbbccc
 
-Explaination: We can reduce an *aa* in the starting condition to a *b* which results in abbbccc
+*Explaination: We can reduce an aa in the starting condition to a b which results in abbbccc*
 
 2. abbb(cc --> b)c = abbbbc
 
-Explaination: We can do the same things to the *c's* and reduce *cc* to *b*
+*Explaination: We can do the same things to the c's and reduce cc to b*
 
 3. a(bb --> [ ])bbc = abbc
 
-Explaination: bb reduces to nothing
+*Explaination: bb reduces to nothing*
 
 4. a(bb -->)c = ac
 
-Explaination: We can reduce bb to nothing once more
+*Explaination: We can reduce bb to nothing once more*
 
 5. ac --> aa
 
-Explaintion: ac reduces to aa. Check to see if this is its normal form. (Hint: keep going!)
+*Explaintion: ac reduces to aa. Check to see if this is its normal form. (Hint: keep going!)*
 
 6. aa --> b
 
-Explaination: aa can be reduced to b. A single b can not be reduced any further, so we have reached its normal form!
+*Explaination: aa can be reduced to b. A single b can not be reduced any further, so we have reached its normal form!*
+
+You may notice that there are many different ways you can do these steps. You can apply the rules in any order that you would like and still reach the same normal form! This means that the ARS system is **confluent**. If a system is confluent, it means that no matter how you apply the rules to the starting condition, you will always reach the same normal form.
+
+
 
 
 
