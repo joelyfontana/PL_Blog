@@ -1,6 +1,6 @@
 # Blog Entry #7
 
-## Abstract Reduction Systems
+## Concept of Abstract Reduction Systems
 
 ### What is an Abstract Reduction System?
 An abstract reduction system (ARS for short) is a set of elements that we need to rewrite and a relation, or a set of rules, that we can apply to the elements. These rules help us to simplify elements in an easier and faster format to process.
@@ -59,7 +59,41 @@ Using the above starting condition and rules, we can reduce the starting conditi
 
 *Explaination: aa can be reduced to b. A single b can not be reduced any further, so we have reached its normal form!*
 
-You may notice that there are many different ways you can do these steps. You can apply the rules in any order that you would like and still reach the same normal form! This means that the ARS system is **confluent**. If a system is confluent, it means that no matter how you apply the rules to the starting condition, you will always reach the same normal form.
+You may notice that there are many different ways you can do these steps. You can apply the rules in any order that you would like and still reach the same normal form! This means that the ARS system is **confluent**. If a system is confluent, it means that no matter how you apply the rules to the starting condition, you will always reach the same normal form. Further, this system is also **terminating**. This means that the system reaches a normal form and does not get stuck cycling between two rules. This is best explained in the example below.
+
+**Non-Terminating ARS Example**
+*Starting condition* - 
+
+aaabbccc
+
+*Rules* - 
+
+bb --> [ ]
+
+aa --> b
+
+cc --> b
+
+ac --> aa
+
+b --> aa
+
+As you can see, this ARS follows the same rules as the one in the example above with the exception of one additional rule. When you reduce the system (following the same steps as above) you reach the step where
+aa --> b
+ 
+However, unlike the system above, we are not finished. Because of the new additional rule, b can also be reduced.
+ 
+b --> aa
+ 
+This results in an endless cycle because of how aa --> b and b --> aa. This means that the system is non-terminating and will never reach its normal form!
+ 
+_________________________________________________________________________________________________________________________________________________________________________________
+**Definition Recap**
+Confluence - The ARS reaches a unique normal form and is terminating 
+Terminating - The ARS reaches a normal form and can not be reduced any further
+Non- Terminating - The ARS does not have a normal form and can continuously be reduced forever
+_________________________________________________________________________________________________________________________________________________________________________________
+
 
 
 
