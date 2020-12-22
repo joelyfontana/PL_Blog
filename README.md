@@ -24,5 +24,6 @@ Fall 2020
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry8.md
 - Blog Entry 9: Most Useful Extensions of Lambda Calculus
     - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry9.md
-- Blog Entry 10:
+- Blog Entry 10: Introduction to De Brujin Indeces and Notation
+    - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry10.md
 
