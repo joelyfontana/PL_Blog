@@ -2,13 +2,24 @@
 
 ## Understanding Hoare Logic
 
-### What is Hoare Logic?
-To simply define the concept of Hoare logic, it is basically a system of logical rules used to test the correctness of computer programs. Hoare logic was first propsed in the 1960's by Tony Hoare and it continues to be a topic of research even in present day. It combines the two ideas of writing down the specifications of programs with a computational proof technique to verify that the program is correct in relation to the written specifications.  
+### Comparing Discrete Mathematics Relations: Symmetric, Reflexive, and Transitive
 
-### Why is Hoare Logic Important?
-Hoare logic is very important for several reasons. 
+Reflexitivity, Symmetry, and Transitivity are all types of Relations in Discrete mathematics. Relations are crucial in mathematics because they help define relationships between objects of the same sets or even objects in different sets and different sets entirely.
 
+### Defining the Relations
 
-### How does it relate to programming languages?
+**Symmetric Relations**
+
+In just basic mathematics, symmetry is defined as, for real numbers x and y,
+```
+if x = y, then y = x
+```
+In discrete math, the idea remains the same, but the syntax varies. In discrete, the symmetric relation is represented as
+```
+Assuming R⊆ AxA,
+xRy --> yRx
+for all x,y ∈A
+```
+For those of us who better understand English than discrete, this is saying that, Assuming R is a subset of the set AxA, xRy is the same as yRx for every x and y in the set of A. 
 
 
