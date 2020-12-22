@@ -64,10 +64,12 @@ Determine whether the relation R on the set of all integers is reflexive, symmet
 
 ***The symbol != means not equal for this example***
 
-It is not reflexive because, if you plug in any number, x can not be equal to y.
-It is also not symmetric because x can not equal y and y can not equal x
-Lastly, it is not transitive because while x does not have to be equal to y and y does not have to be equal to z, x has to be equal to z, which is not possible. 
+- It is not reflexive because, if you plug in any number, x can not be equal to y.
+- It is also not symmetric because x can not equal y and y can not equal x
+- Lastly, it is not transitive because while x does not have to be equal to y and y does not have to be equal to z, x has to be equal to z, which is not possible. 
+
 To make this example work for all of the relations above, x would have to be equal to y.
+
 See below for an explaination with numbers
 ```
 Not Reflexive - 
