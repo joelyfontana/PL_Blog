@@ -1,6 +1,6 @@
 # Blog Entry #9
 
-## Extensions of Lambda Calculus
+## Most Useful Extensions of Lambda Calculus
 
 ### Introduction
 Overall, Lambda Calculus is a very flexible and versile language. It allows us to "extend" the langauge, or add features to the language that help us create a binding mechanism for variables so we do not have to redefine them my hand each time. This is also known as **Higher Order Abstract Syntax** (HOAS for short). 
@@ -57,6 +57,7 @@ let one = (\f.\x.f x)
 in 
 plus two one
 ```
+This use of *let* and *in* help to bind the function together to make it more readable and more abstract.
 ## Recursion 
 If we have a function that is recurvsive, the syntax is slightly different. Instead of using *let* before the program, you would use *let rec* in front of the program that you want to use recursion in. This is shown in the example below.
 ```
