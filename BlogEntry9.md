@@ -12,3 +12,23 @@ Higher Order Abstract Syntax is a technique for the representation of abstract s
 ___________________________________________________________________________________________________________________________________________________________________________________
 
 ### Syntax of Lambda Calculus 
+Given the function below, we need to be able to turn it into a more readable function. We can do this by rearranging the function and using Let.
+
+___________________________________________________________________________________________________________________________________________________________________________________
+**Let Definition** - 
+Let is a easier and cleaner way of defining whenever we have a program.
+So if we have 
+```
+let x = element1 in element2
+```
+it means the same thing as 
+```
+(\x . element2) element1
+```
+___________________________________________________________________________________________________________________________________________________________________________________
+```
+(\plus . \two . \one . plus two one) 
+(\m.\n.\f.\x. m f (n f x)) 
+(\f.\x. f (f x)) 
+(\f.\x.f x)
+```
