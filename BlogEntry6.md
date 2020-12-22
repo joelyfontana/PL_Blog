@@ -56,11 +56,14 @@ The Venn Diagram below outlines the defination of the relations as well as how t
 ![Venn Diagram Picture](VennDiagram.png)
 
 **Example Question**
+
 Determine whether the relation R on the set of all integers is reflexive, symmetric, and/or transitive, where 
 ```
 (x, y) ∈ R if and only if x != to y
 ```
-*The symbol != means not equal for this example*
+
+***The symbol != means not equal for this example***
+
 It is not reflexive because, if you plug in any number, x can not be equal to y.
 It is also not symmetric because x can not equal y and y can not equal x
 Lastly, it is not transitive because while x does not have to be equal to y and y does not have to be equal to z, x has to be equal to z, which is not possible. 
