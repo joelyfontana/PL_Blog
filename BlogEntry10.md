@@ -57,3 +57,14 @@ These examples all follow the same format as the examples listed above. They are
 (λx.λx.x) (λy.y) --> (λ.λ.0) (λ.0)
 ```
 
+### De Brujin Notation with free variables
+With free variables, the notation is slightly different. When working with expressions containing free variables in De Brujin notation, we have to shift the indeces of the free variables in order to map the free variables to integers. So if we have the expression
+```
+λc. a b c
+```
+in lambda notation, it becomes the following in De Brujin Notation
+```
+λ. 1 2 0
+```
+This is because while *c* is a bound variable, *a* and *b* are free variables. Typically *a* and *b* would be 0 and 1 but because *c* is a bounded variable, it is 0. Therefore we have to shift the indeces of *a* and *b* up to 1 and 2 to avoid capturing them.
+
