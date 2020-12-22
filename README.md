@@ -16,8 +16,8 @@ Fall 2020
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry4.md
 - Blog Entry 5: Haskell Tips and Tricks
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry5.md
-- Blog Entry 6:
-
+- Blog Entry 6: Comparing Discrete Mathematics Relations: Symmetric, Reflexive, and Transitive
+    - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry6.md
 - Blog Entry 7: Concept of Abstract Reduction Systems
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry7.md
 - Blog Entry 8: Parsing Lambda Calculus
