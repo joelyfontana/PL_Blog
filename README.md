@@ -22,8 +22,7 @@ Fall 2020
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry7.md
 - Blog Entry 8: Parsing Lambda Calculus
   - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry8.md
-- Blog Entry 9:
-
-
+- Blog Entry 9: Most Useful Extensions of Lambda Calculus
+    - https://github.com/joelyfontana/PL_Blog/blob/main/BlogEntry9.md
 - Blog Entry 10:
 
