@@ -53,7 +53,7 @@ In English this means that assuming R is a subset in the set of AxA, the combina
 ### Relations of the Relations
 The Venn Diagram below outlines the defination of the relations as well as how they relate to each other 
 
-[!Venn Diagram Picture](VennDiagram.png)
+![Venn Diagram Picture](VennDiagram.png)
 
 **Example Question**
 Determine whether the relation R on the set of all integers is reflexive, symmetric, and/or transitive, where 
